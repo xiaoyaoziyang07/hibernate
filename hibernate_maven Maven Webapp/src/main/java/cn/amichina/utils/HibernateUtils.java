@@ -1,4 +1,4 @@
-package cn.amichina.liyang;
+package cn.amichina.utils;
 
 import javax.persistence.Entity;
 

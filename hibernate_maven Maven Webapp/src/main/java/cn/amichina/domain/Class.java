@@ -1,4 +1,4 @@
-package cn.amichina.liyang;
+package cn.amichina.domain;
 
 import java.io.Serializable;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package cn.amichina.liyang;
+package cn.amichina.domain;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;

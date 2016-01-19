@@ -1,4 +1,4 @@
-package cn.amichina.liyang;
+package cn.amichina.domain;
 
 public class Person {
 	

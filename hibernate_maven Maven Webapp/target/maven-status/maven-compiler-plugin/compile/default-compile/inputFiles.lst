@@ -1,5 +1,7 @@
-C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\liyang\Plane.java
-C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\liyang\Person.java
-C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\liyang\A320.java
-C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\liyang\Class.java
-C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\liyang\HibernateUtils.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\domain\Cat.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\utils\HibernateUtils.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\domain\A320.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\domain\Plane.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\domain\Person.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\domain\BlackCat.java
+C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp\src\main\java\cn\amichina\domain\Class.java

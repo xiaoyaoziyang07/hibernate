@@ -3,7 +3,7 @@
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="cn.amichina.liyang.Class" table="CLASS">
+	<class name="cn.amichina.domain.Class" table="CLASS">
 		<composite-id>
 			<key-property name="id"></key-property>
 			<key-property name="name"></key-property>

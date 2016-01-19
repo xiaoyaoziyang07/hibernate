@@ -1,5 +1,7 @@
-cn\amichina\liyang\HibernateUtils.class
-cn\amichina\liyang\Class.class
-cn\amichina\liyang\Person.class
-cn\amichina\liyang\A320.class
-cn\amichina\liyang\Plane.class
+cn\amichina\domain\A320.class
+cn\amichina\domain\BlackCat.class
+cn\amichina\domain\Person.class
+cn\amichina\utils\HibernateUtils.class
+cn\amichina\domain\Cat.class
+cn\amichina\domain\Plane.class
+cn\amichina\domain\Class.class
