@@ -23,6 +23,8 @@
 
 		<mapping resource="cn/amichina/liyang/Person.hbm.xml" />
 		<mapping resource="cn/amichina/liyang/Class.hbm.xml" />
+		<mapping class="cn.amichina.liyang.A320"/>
+		<mapping class="cn.amichina.liyang.Plane"/>
 
 	</session-factory>
 </hibernate-configuration>

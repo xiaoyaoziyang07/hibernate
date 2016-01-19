@@ -3,9 +3,11 @@
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="cn.amichina.liyang.Class">
-		<id name="id"  length="5" type="java.lang.Integer">
-			<generator class="increment"></generator>
-		</id>
+	<class name="cn.amichina.liyang.Class" table="CLASS">
+		<composite-id>
+			<key-property name="id"></key-property>
+			<key-property name="name"></key-property>
+			<key-property name="birthday" type="date"></key-property>
+		</composite-id>
 	</class>
 </hibernate-mapping>
