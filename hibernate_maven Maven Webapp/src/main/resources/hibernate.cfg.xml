@@ -21,12 +21,16 @@
 		<!-- 显示hibernate内部生成的sql语句 -->
 		<property name="show_sql">true</property>
 
-		<mapping resource="cn/amichina/domain/Person.hbm.xml" />
-		<mapping resource="cn/amichina/domain/Class.hbm.xml" />
+		<mapping class="cn.amichina.domain.Class" />
+		<mapping class="cn.amichina.domain.Person" />
 		<mapping class="cn.amichina.domain.A320"/>
 		<mapping class="cn.amichina.domain.Plane"/>
 		<mapping class="cn.amichina.domain.Cat"/>
 		<mapping class="cn.amichina.domain.BlackCat"/>
+		<mapping class="cn.amichina.domain.Student"/>
+		<mapping class="cn.amichina.domain.Home"/>
+		<mapping class="cn.amichina.domain.inheritance.Plane01"/>
+		<mapping class="cn.amichina.domain.inheritance.A0003"/>
 
 	</session-factory>
 </hibernate-configuration>

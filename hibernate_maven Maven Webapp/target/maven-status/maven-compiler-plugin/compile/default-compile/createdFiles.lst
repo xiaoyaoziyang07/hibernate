@@ -1,7 +1,9 @@
-cn\amichina\domain\A320.class
 cn\amichina\domain\BlackCat.class
-cn\amichina\domain\Person.class
+cn\amichina\domain\Home.class
+cn\amichina\domain\Student.class
 cn\amichina\utils\HibernateUtils.class
-cn\amichina\domain\Cat.class
 cn\amichina\domain\Plane.class
+cn\amichina\domain\A320.class
+cn\amichina\domain\Person.class
+cn\amichina\domain\Cat.class
 cn\amichina\domain\Class.class

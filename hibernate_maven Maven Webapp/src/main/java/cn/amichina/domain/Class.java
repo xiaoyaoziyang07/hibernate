@@ -1,18 +1,13 @@
 package cn.amichina.domain;
 
-import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Embeddable;
 
-public class Class implements Serializable{
-	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -8761052219521347899L;
-	
+@Embeddable
+public class Class {
+
 	private int id;
-	private String name;
 	private Date birthday;
 
 	public int getId() {
@@ -23,14 +18,6 @@ public class Class implements Serializable{
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public Date getBirthday() {
 		return birthday;
 	}
@@ -38,15 +25,4 @@ public class Class implements Serializable{
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
-
-	@Override
-	public int hashCode() {
-		return 1;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		return true;
-	}
-	
 }

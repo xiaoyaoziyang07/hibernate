@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="1.169" errors="0" skipped="0" tests="1" name="cn.amichina.liyang.HibernateTest">
+<testsuite failures="0" time="1.032" errors="0" skipped="0" tests="1" name="cn.amichina.liyang.HibernateTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\bin"/>
     <property name="java.vm.version" value="24.45-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="$M2_HOME"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\yang\git\hibernate\hibernate_maven Maven Webapp"/>
+    <property name="user.dir" value="C:\Users\Administrator\git\hibernate\hibernate_maven Maven Webapp"/>
     <property name="java.runtime.version" value="1.7.0_45-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\yang\AppData\Local\Temp\"/>
+    <property name="java.endorsed.dirs" value="C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="D:\mwp\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5673686117146849880.tmp"/>
+    <property name="classworlds.conf" value="C:\wangxin\workspaces\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1576119259044385680.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\JDK1.8\bin;C:\Program Files\PostgreSQL\9.5\bin;C:\mysql-5.6.27\bin;C:\apache-maven-3.3.9\bin;."/>
+    <property name="java.library.path" value="C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Administrator/AppData/Local/MyEclipse Professional 2014/binary/com.sun.java.jdk7.win32.x86_1.7.0.u45/jre/bin/client;C:/Users/Administrator/AppData/Local/MyEclipse Professional 2014/binary/com.sun.java.jdk7.win32.x86_1.7.0.u45/jre/bin;C:/Users/Administrator/AppData/Local/MyEclipse Professional 2014/binary/com.sun.java.jdk7.win32.x86_1.7.0.u45/jre/lib/i386;D:\Python27\;D:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\MATLAB7\bin\win32;D:\Program Files\Java\jdk1.8.0_45\bin;D:\Program Files\Java\jdk1.8.0_45\jre\bin;C:\Program Files\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Program Files\TortoiseSVN\bin;C:\mysql-5.7.9-win32\bin;C:\Program Files\PostgreSQL\9.5\bin;D:\apache-maven-3.3.9\bin;C:\Users\Administrator\AppData\Roaming\Python\Scripts;F:\Myworkspace\Canopy32\User;F:\Myworkspace\Canopy32\User\Scripts;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
     <property name="os.version" value="6.2"/>
-    <property name="user.home" value="C:\Users\yang"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="yang"/>
-    <property name="java.class.path" value="C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s C:\Users\yang\.m2\settings.xml test"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -s C:\Users\Administrator\.m2\settings.xml test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.7.0_45"/>
-    <property name="java.ext.dirs" value="C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\resources.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\rt.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\sunrsasign.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jsse.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jce.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\charsets.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jfr.jar;C:\MyEclipse2014\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\classes"/>
+    <property name="java.ext.dirs" value="C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\resources.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\rt.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\sunrsasign.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\jsse.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\jce.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\charsets.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\lib\jfr.jar;C:\Users\Administrator\AppData\Local\MyEclipse Professional 2014\binary\com.sun.java.jdk7.win32.x86_1.7.0.u45\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.3.9"/>
+    <property name="maven.home" value="D:\apache-maven-3.3.9"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="maven.bootclasspath" value="C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="maven.bootclasspath" value="D:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="1.169" classname="cn.amichina.liyang.HibernateTest" name="createTable"/>
+  <testcase time="1.032" classname="cn.amichina.liyang.HibernateTest" name="createTable"/>
 </testsuite>
