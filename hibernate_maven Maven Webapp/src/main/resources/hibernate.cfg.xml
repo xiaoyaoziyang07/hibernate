@@ -4,33 +4,41 @@
 	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<!-- 一个session-factory只能连接一个数据库 -->
-	<session-factory>
-		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<!-- 数据库的用户名 -->
-		<property name="connection.username">root</property>
-		<!-- 密码 -->
-		<property name="connection.password">liyang</property>
-		<!-- url -->
-		<property name="connection.url">jdbc:mysql://localhost:3306/hibernate_study</property>
-		
-		<!-- 作用：根据持久化类和映射文件生成表 validate create-drop create update -->
-		<property name="hbm2ddl.auto">update</property>
-		
-		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
-		
-		<!-- 显示hibernate内部生成的sql语句 -->
-		<property name="show_sql">true</property>
+<session-factory>
+	<property name="hibernate.connection.driver_class">
+		com.mysql.jdbc.Driver
+	</property>
+	<!-- 数据库的用户名 -->
+	<property name="connection.username">root</property>
+	<!-- 密码 -->
+	<property name="connection.password">liyang</property>
+	<!-- url -->
+	<property name="connection.url">
+		jdbc:mysql://localhost:3306/hibernate_study
+	</property>
 
-		<mapping class="cn.amichina.domain.Class" />
-		<mapping class="cn.amichina.domain.Person" />
-		<mapping class="cn.amichina.domain.A320"/>
-		<mapping class="cn.amichina.domain.Plane"/>
-		<mapping class="cn.amichina.domain.Cat"/>
-		<mapping class="cn.amichina.domain.BlackCat"/>
-		<mapping class="cn.amichina.domain.Student"/>
-		<mapping class="cn.amichina.domain.Home"/>
-		<mapping class="cn.amichina.domain.inheritance.Plane01"/>
-		<mapping class="cn.amichina.domain.inheritance.A0003"/>
+	<!-- 作用：根据持久化类和映射文件生成表 validate create-drop create update -->
+	<property name="hbm2ddl.auto">update</property>
 
-	</session-factory>
+	<property name="dialect">
+		org.hibernate.dialect.MySQL5InnoDBDialect
+	</property>
+
+	<!-- 显示hibernate内部生成的sql语句 -->
+	<property name="show_sql">true</property>
+
+	<mapping class="cn.amichina.domain.Class" />
+	<mapping class="cn.amichina.domain.Person" />
+	<mapping class="cn.amichina.domain.A320" />
+	<mapping class="cn.amichina.domain.Plane" />
+	<mapping class="cn.amichina.domain.Cat" />
+	<mapping class="cn.amichina.domain.BlackCat" />
+	<mapping class="cn.amichina.domain.Student" />
+	<mapping class="cn.amichina.domain.Home" />
+	<mapping class="cn.amichina.domain.inheritance.Plane01" />
+	<mapping class="cn.amichina.domain.inheritance.A0003" />
+	<mapping class="cn.amichina.domain.collection.Soldier" />
+	<mapping class="cn.amichina.domain.collection.Troop" />
+
+</session-factory>
 </hibernate-configuration>
