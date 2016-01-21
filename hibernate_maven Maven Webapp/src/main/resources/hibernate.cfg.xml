@@ -39,6 +39,7 @@
 	<mapping class="cn.amichina.domain.inheritance.A0003" />
 	<mapping class="cn.amichina.domain.collection.Soldier" />
 	<mapping class="cn.amichina.domain.collection.Troop" />
+	<mapping class="cn.amichina.domain.Report" />
 
 </session-factory>
 </hibernate-configuration>
