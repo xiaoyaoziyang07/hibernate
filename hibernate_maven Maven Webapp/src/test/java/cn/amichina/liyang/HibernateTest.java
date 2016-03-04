@@ -34,7 +34,7 @@ public class HibernateTest {
 		report.setUpload(513.86);
 		report.setDownload(315.67);
 		report.setNum(52);
-//		session.save(report);
+		session.save(report);
 //		session.persist(report);
 		tran.commit();
 		session.close();
@@ -45,7 +45,7 @@ public class HibernateTest {
 		
 //		Report r1 = (Report)session.load(Report.class, 3L);
 		Report r1 = new Report();
-		session.load(r1, 4L);
+		session.load(r1, 1L);
 		String sql = "";
 		Query query = session.createQuery(sql);
 		query.setLockMode("", LockMode.FORCE);
